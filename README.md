@@ -8,4 +8,4 @@ To install this app, just clone the repo and and run this command to install all
 
 `npm i`
 
-This project is not finished .
+_This project is not finished_ .
