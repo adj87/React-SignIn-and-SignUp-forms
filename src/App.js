@@ -11,11 +11,18 @@ import "bootstrap/dist/css/bootstrap.min.css"
 /**
  * Import components
  */
-import Example from "./components/sign-in.js"
+import SignIn from "./components/sign-in.js"
+
+/**
+ * Import some config parameter
+ */
+import { host, routes } from "./components/config.js"
 
 class App extends Component {
   render() {
-    return <Example />
+    const route = host + routes["sign-in"]
+    const titleForm = "title"
+    return <SignIn route={route} titleForm={titleForm} />
   }
 }
 
