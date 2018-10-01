@@ -2,24 +2,21 @@
  * Import dependencies
  */
 
-import React, { Component } from 'react';
+import React, { Component } from "react"
 /**
  * Import styles
  */
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css"
 
 /**
  * Import components
  */
-import Example from './components/sign-in.js';
-
+import Example from "./components/sign-in.js"
 
 class App extends Component {
   render() {
-    return (
-      <Example/>
-    );
+    return <Example />
   }
 }
 
-export default App;
+export default App
